@@ -1,0 +1,9 @@
+<h1>Custom Tables</h1>
+
+<ul>
+  <% @custom_tables.each do |custom_table| %>
+    <li>
+        <%= link_to custom_table.title, custom_table %>
+    </li>
+  <% end %>
+</ul>
